@@ -4,9 +4,9 @@ export const TodoContext=createContext({
         id:1,todomessage:"teri maa ka bhosda"
     },
     ],
-    addTodo:(todos)=>{},
-    DeleteTodo:(todos,id)=>{},
-    EditTodo:(todos,id)=>{}
+    addTodo:(todomessage)=>{},
+    DeleteTodo:(id)=>{},
+    EditTodo:(todomessage,id)=>{}
 
 })
 export const TodoProvider=TodoContext.Provider
